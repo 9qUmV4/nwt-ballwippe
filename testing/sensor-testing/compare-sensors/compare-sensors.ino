@@ -8,10 +8,17 @@
 SharpIR sharpIR(LIGHT_SENSOR_PIN, LIGHT_SENSOR_MODEL);
 
 void setup() {
-  Serial.begin(250000);
+  Serial.begin(115200);
+
+  // Sonic sensor
   pinMode(SONIC_SENSOR_ECHO_PIN, INPUT);
   pinMode(SONIC_SENSOR_TRIGGER_PIN, OUTPUT);
   digitalWrite(SONIC_SENSOR_TRIGGER_PIN, LOW);
+
+  // Light sensor
+
+
+  delay(1000);
 }
 
 void loop() {
@@ -24,7 +31,9 @@ void loop() {
 
   unsigned int dis_l = sharpIR.distance();
 
-  
+  Serial.println(dis_s);
+  Serial.println(dis_l);
+  delay(100);
   
 
 }
