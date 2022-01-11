@@ -1,6 +1,6 @@
 #include <SharpIR.h>
 
-#define LIGHT_SENSOR_PIN 1
+#define LIGHT_SENSOR_PIN A0
 #define LIGHT_SENSOR_MODEL 1080
 #define SONIC_SENSOR_TRIGGER_PIN 5
 #define SONIC_SENSOR_ECHO_PIN 6
@@ -31,7 +31,9 @@ void loop() {
 
   unsigned int dis_l = sharpIR.distance();
 
-  Serial.println(dis_s);
+  Serial.print("sound | light\t");
+  Serial.print(dis_s);
+  Serial.print(" | ");
   Serial.println(dis_l);
   delay(100);
   
