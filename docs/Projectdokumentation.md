@@ -5,9 +5,23 @@
 - [Lichtsensor](https://www.farnell.com/datasheets/1657845.pdf)
 - [Ultraschallsensor](https://www.mikrocontroller.net/attachment/218122/HC-SR04_ultraschallmodul_beschreibung_3.pdf)
 
+## Aufgaben
+- [ ] Zeichen von Bauteilen
+  - [x] Grundplatte
+  - [x] Laufschinen
+  - [x] Standbeine
+  - [x] Ball
+  - [x] Fuß
+  - [ ] Motorhalter
+  - [ ] Achse
+  - [ ] Lager
+  - [ ] Endstück links
+  - [ ] Endstück rechts
+  - [ ] Schrauben 
+- [ ] Zusammensetzen
+
+
 ## Zeitplan
-
-
 
 ### Stunde 3 (11.01.2022)
     1. Testen von den verschiedenen Abstandssensoren
@@ -31,6 +45,12 @@
        - [ ] Schrauben 
 
     2. Zusammensetzen begonnen
+
+### Stunde 5 (2022-01-18)
+    Info: Nur eine Stunde wegen GFS
+     
+    1. Zeichen von Bauteilen
+    2. Zusammensetzen von Teilen
 
 
 ## Testing
