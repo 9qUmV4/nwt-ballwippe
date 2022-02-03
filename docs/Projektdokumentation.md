@@ -52,6 +52,11 @@
     1. Zeichen von Bauteilen
     2. Zusammensetzen von Teilen
 
+### Stunde 6 (2022-02-01)
+    Info: Nur Jan anwesend (Krankheit)
+
+    Weiterzeichen an `Lager` und Gesamtkonstruktionn
+
 
 ## Testing
 

@@ -1,0 +1,5 @@
+{
+    "files.exclude": {
+        "**/*.FCStd1": true
+    }
+}
