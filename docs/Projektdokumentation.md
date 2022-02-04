@@ -24,38 +24,38 @@
 ## Zeitplan
 
 ### Stunde 3 (11.01.2022)
-    1. Testen von den verschiedenen Abstandssensoren
-    2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich) 
-        - Problem war, dass der Lichtsensor auf dem Digitalport 1 angeschlossen war (Inteferentz mit Serieller Kommunikation)
-    3. Problem behoben
-    4. Testreihe aufgenommen
+1. Testen von den verschiedenen Abstandssensoren
+2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich) 
+    - Problem war, dass der Lichtsensor auf dem Digitalport 1 angeschlossen war (Inteferentz mit Serieller Kommunikation)
+3. Problem behoben
+4. Testreihe aufgenommen
 
 ### Stunde 4 (2022-01-12)
-    1. Zeichnen von Bauteilen
-       - [x] Grundplatte
-       - [x] Laufschinen
-       - [x] Standbeine
-       - [x] Ball
-       - [x] Fuß
-       - [ ] Motorhalter
-       - [ ] Achse
-       - [ ] Lager
-       - [ ] Endstück links
-       - [ ] Endstück rechts
-       - [ ] Schrauben 
+1. Zeichnen von Bauteilen
+   - [x] Grundplatte
+   - [x] Laufschinen
+   - [x] Standbeine
+   - [x] Ball
+   - [x] Fuß
+   - [ ] Motorhalter
+   - [ ] Achse
+   - [ ] Lager
+   - [ ] Endstück links
+   - [ ] Endstück rechts
+   - [ ] Schrauben 
 
-    2. Zusammensetzen begonnen
+2. Zusammensetzen begonnen
 
 ### Stunde 5 (2022-01-18)
-    Info: Nur eine Stunde wegen GFS
-     
-    1. Zeichen von Bauteilen
-    2. Zusammensetzen von Teilen
+Info: Nur eine Stunde wegen GFS
+
+1. Zeichen von Bauteilen
+2. Zusammensetzen von Teilen
 
 ### Stunde 6 (2022-02-01)
-    Info: Nur Jan anwesend (Krankheit)
+Info: Nur Jan anwesend (Krankheit)
 
-    Weiterzeichen an `Lager` und Gesamtkonstruktionn
+Weiterzeichen an `Lager` und Gesamtkonstruktionn
 
 
 ## Testing
