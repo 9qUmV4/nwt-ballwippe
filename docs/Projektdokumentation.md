@@ -15,8 +15,8 @@
   - [ ] Motorhalter
   - [ ] Achse
   - [ ] Lager
-  - [ ] Endstück links
-  - [ ] Endstück rechts
+  - [x] Endstück links
+  - [x] Endstück rechts
   - [ ] Schrauben 
 - [ ] Zusammensetzen
 
@@ -55,7 +55,7 @@ Info: Nur eine Stunde wegen GFS
 ### Stunde 6 (2022-02-01)
 Info: Nur Jan anwesend (Krankheit)
 
-Weiterzeichen an `Lager` und Gesamtkonstruktionn
+Weiterzeichen an `Lager` und Gesamtkonstruktion
 
 
 ## Testing
