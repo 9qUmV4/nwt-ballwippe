@@ -15,17 +15,17 @@
   - [ ] Motorhalter
   - [ ] Achse
   - [ ] Lager
-  - [ ] Endstück links
-  - [ ] Endstück rechts
+  - [x] Endstück links
+  - [x] Endstück rechts
   - [ ] Schrauben 
 - [ ] Zusammensetzen
 
 
-## Zeitplan
+## Projektverlauf
 
 ### Stunde 3 (11.01.2022)
 1. Testen von den verschiedenen Abstandssensoren
-2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich) 
+2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich)
     - Problem war, dass der Lichtsensor auf dem Digitalport 1 angeschlossen war (Inteferentz mit Serieller Kommunikation)
 3. Problem behoben
 4. Testreihe aufgenommen
@@ -42,7 +42,7 @@
    - [ ] Lager
    - [ ] Endstück links
    - [ ] Endstück rechts
-   - [ ] Schrauben 
+   - [ ] Schrauben
 
 2. Zusammensetzen begonnen
 
@@ -55,10 +55,15 @@ Info: Nur eine Stunde wegen GFS
 ### Stunde 6 (2022-02-01)
 Info: Nur Jan anwesend (Krankheit)
 
-Weiterzeichen an `Lager` und Gesamtkonstruktionn
+Weiterzeichen an `Lager` und Gesamtkonstruktion (_Wippe_gesamt.FCStd_)
+
+### Stunde 7 (2022-02-08)
+Beim Einfügen von `Endplatte` und `Lager` in _Wippe_gesamt.FCStd_ fallen nicht
+übereinstimmende Maße auf => `Endplatte` muss neu gezeichnet werden, da FreeCAD
+durcheinanderkommt.
 
 
-## Testing
+## Tests
 
 ### Sensor Tests
 
@@ -89,4 +94,5 @@ Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Wer
 | 35 | 177| 39
 
 **Ergebnis**
+
 Wir verwenden den Lichtsensor, da der Schallsensor ab 15 Zentimetern den Ball nicht mehr erkennt, erkennbar an dem deutlichen Sprung zu 177 cm.
