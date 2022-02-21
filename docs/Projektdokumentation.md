@@ -19,6 +19,7 @@
   - [x] Endstück rechts
   - [ ] Schrauben 
 - [ ] Zusammensetzen
+- [ ] Berechnung und Argumentation MOtorbestimmung
 
 
 ## Projektverlauf
