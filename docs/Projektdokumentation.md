@@ -18,6 +18,7 @@
       - [**Mit Brett**](#mit-brett)
       - [**Mit Ball (3,9 cm Durchmesser / kleiner Ball)**](#mit-ball-39-cm-durchmesser--kleiner-ball)
       - [**Ergebnis**](#ergebnis)
+  - [Aufbau & Funktion der Bauteile](#aufbau--funktion-der-bauteile)
 
 ## Datenblätter
 - [Lichtsensor](https://www.farnell.com/datasheets/1657845.pdf)
@@ -93,14 +94,14 @@ durcheinanderkommt.
 ### Servomotor
 
 Anforderungen (Berechnung siehe [Notizzettel](Notes.pdf) Seite 7):
-- Minimale Kraft: 0,6055 Nm   
+- Minimale Kraft: 0,6055 Nm
 - Minimale Geschwindigkeit: 115,8 °/s
 - Maximalpreis: 10€
 
 
 ### Abstandssensor
 
-Testen von verschiedenen Abstandssensoren. Einmal einen Ultraschallsensor (Typ: `HC-SR04`) und einen optischen Abstandsensor (Typ: `GP2Y0A21YK0F`). Die beiden Sensoren  
+Testen von verschiedenen Abstandssensoren. Einmal einen Ultraschallsensor (Typ: `HC-SR04`) und einen optischen Abstandsensor (Typ: `GP2Y0A21YK0F`). Die beiden Sensoren
 
 Um wie gefordert zu funktionieren benötigt die Wippe eine Möglichkeit, die Position des Balls einigermaßen genau zu beobachten. Dafür sind spezielle Sensoren vonnöten. Da auch die Forderung besteht, möglichst mit vorhandenen Bauteilen zu arbeiten, kam für uns zunächst der Ultraschallsensor in Betracht. Da aber Zweifel bezüglich der Genauigkeit bei einem kleinen Ball bestanden, haben wir uns für eine Testreihe entschieden, die die Entscheidung Ultraschall- und Licht(Infrarot-)sensor fällen sollte.
 
@@ -148,3 +149,9 @@ Um die Genauigkeit im eigentlichen Anwendungsfall zu ermitteln wurde eine weiter
 #### **Ergebnis**
 
 Wir verwenden den Lichtsensor, da der Schallsensor ab 15 Zentimetern den Ball nicht mehr erkennt, erkennbar an dem deutlichen Sprung zu 177 cm.
+
+## Aufbau & Funktion der Bauteile
+
+Die Ballwippe besteht aus insgesamt 8 Bauteilen.
+
+Der Standfuß steht auf einer Grundplatte und dient zur Stabilisierung der Ballwippe. Er festigt die zwei Standbeine, auf welchen das Lager liegt. Zwischen den beiden Balken wird die Kabelführung für Motor und Sensoren gelegt. Die beiden Standfüße sind ein weiteres Bauteil, das zur Stabilisation dient. Sie halten das Lager, welches durch den Motor gedreht wird. Auf dem Lager wird die Laufschiene der Wippe platziert. An den Enden der Laufschiene sind Abstandssensoren, die die Entfernung zum Boden messen. Durch die Drehachse, die waagrecht durch das Lager läuft, kann der Motor, welcher in einer Einkerbung an der rechten Seite des Lagers befestigt wird, die Drehung des Lagers und somit die Neigung der Wippe kontrollieren. Der Motor wird von einer Motorhalterung gehalten, welche mit zwei Schrauben an den Standfüßen befestigt wird.
