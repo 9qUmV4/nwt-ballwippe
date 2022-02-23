@@ -98,6 +98,10 @@ Anforderungen (Berechnung siehe [Notizzettel](Notes.pdf) Seite 7):
 - Minimale Geschwindigkeit: 115,8 °/s
 - Maximalpreis: 10€
 
+Die Grundidee bei der Bestimmung der Anforderungen an den Motor lautet wiefolgt:
+
+Angenommen, die Wippe ist voll ausgelenkt (+20°) nach rechts. In der Zeit, in der der Ball auf der Wippe ganz nach rechts rollt, muss der Motor die Wippe in die andere Extremposition (-20°) bringen. Dafür benötigt er sowohl genügend Drehmoment, als auch eine minimale Drehgeschwindigkeit. Diese Werte sind im oben genannten [Notizzettel](Notes.pdf) auf Seite 7/8 berechnet.
+
 
 ### Abstandssensor
 
