@@ -1,7 +1,25 @@
 # Projektdokumentation
 
-## Datenblätter
+- [Projektdokumentation](#projektdokumentation)
+  - [Datenblätter](#datenblätter)
+  - [Aufgaben](#aufgaben)
+  - [Projektverlauf](#projektverlauf)
+    - [Stunde 1 (2021-12-14)](#stunde-1-2021-12-14)
+    - [Stunde 2 (2021-12-15)](#stunde-2-2021-12-15)
+    - [Stunde 3 (2022-01-11)](#stunde-3-2022-01-11)
+    - [Stunde 4 (2022-01-12)](#stunde-4-2022-01-12)
+    - [Stunde 5 (2022-01-18)](#stunde-5-2022-01-18)
+    - [Stunde 6 (2022-02-01)](#stunde-6-2022-02-01)
+    - [Stunde 7 (2022-02-08)](#stunde-7-2022-02-08)
+    - [Stunde 8 (2022-02-22)](#stunde-8-2022-02-22)
+  - [Teileauswahl](#teileauswahl)
+    - [Servomotor](#servomotor)
+    - [Abstandssensor](#abstandssensor)
+      - [**Mit Brett**](#mit-brett)
+      - [**Mit Ball (3,9 cm Durchmesser / kleiner Ball)**](#mit-ball-39-cm-durchmesser--kleiner-ball)
+      - [**Ergebnis**](#ergebnis)
 
+## Datenblätter
 - [Lichtsensor](https://www.farnell.com/datasheets/1657845.pdf)
 - [Ultraschallsensor](https://www.mikrocontroller.net/attachment/218122/HC-SR04_ultraschallmodul_beschreibung_3.pdf)
 
@@ -23,7 +41,17 @@
 
 ## Projektverlauf
 
-### Stunde 3 (11.01.2022)
+### Stunde 1 (2021-12-14)
+
+- erste Überlegungen und grobe Planungsskizzen
+
+### Stunde 2 (2021-12-15)
+
+- weitere Arbeit an Planungsskizzen
+- Programierung Testskript
+- Aufbau Sensortest
+
+### Stunde 3 (2022-01-11)
 1. Testen der verschiedenen Abstandssensoren
 2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich)
     - Problem war, dass der Lichtsensor auf dem Digitalport 1 angeschlossen war (Inteferentz mit Serieller Kommunikation)
@@ -64,7 +92,7 @@ durcheinanderkommt.
 
 ### Servomotor
 
-Anforderungen (Berechnung siehe #TODO):
+Anforderungen (Berechnung siehe [Notizzettel](Notes.pdf) Seite 7):
 - Minimale Kraft: 0,6055 Nm   
 - Minimale Geschwindigkeit: 115,8 °/s
 - Maximalpreis: 10€
