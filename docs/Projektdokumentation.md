@@ -31,13 +31,13 @@
   - [x] [Standbeine](../cad-files/Standbeine.FCStd)
   - [x] [Ball](../cad-files/Ball_klein.FCStd)
   - [x] [Fuß](../cad-files/Fuss.FCStd)
-  - [ ] Motorhalter
-  - [ ] Achse
-  - [ ] Lager
+  - [x] [Motorhalter](../cad-files/Motorhalterung.FCStd)
+  - [x] [Achse](../cad-files/Achse.FCStd)
+  - [x] [Lager](../cad-files/Lager.FCStd)
   - [x] [Endstück](../cad-files/Endplatte.FCStd) (links/rechts)
-  - [ ] Schrauben
-- [ ] Zusammensetzen
-- [ ] Berechnung und Argumentation Motorbestimmung
+  - [x] Schrauben
+- [x] Zusammensetzen
+- [x] Berechnung und Argumentation Motorbestimmung
 
 
 ## Projektverlauf
@@ -102,6 +102,11 @@ Die Grundidee bei der Bestimmung der Anforderungen an den Motor lautet wiefolgt:
 
 Angenommen, die Wippe ist voll ausgelenkt (+20°) nach rechts. In der Zeit, in der der Ball auf der Wippe ganz nach rechts rollt, muss der Motor die Wippe in die andere Extremposition (-20°) bringen. Dafür benötigt er sowohl genügend Drehmoment, als auch eine minimale Drehgeschwindigkeit. Diese Werte sind im oben genannten [Notizzettel](Notes.pdf) auf Seite 7/8 berechnet.
 
+Möglich wären beispielsweise diese Motoren: 
+- [JAMARA 033215 Servo Q7 Standard](https://www.reichelt.de/servo-q7-standard-jamara-033215-p238317.html?&trstct=pol_5&nbc=1)
+- [MASTER DS4020 Standardservo, 6 Kg, Digital](https://www.reichelt.de/standardservo-6-kg-digital-master-ds4020-p226367.html?&trstct=pol_6&nbc=1)
+
+Die Motorhalterung wurde für den 360°-Servo in der Schule designed und muss entsprechend der Motorauswahl angepasst werden. 
 
 ### Abstandssensor
 
