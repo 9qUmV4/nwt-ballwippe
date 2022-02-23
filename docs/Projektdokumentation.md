@@ -19,7 +19,7 @@
   - [x] Endstück rechts
   - [ ] Schrauben 
 - [ ] Zusammensetzen
-- [ ] Berechnung und Argumentation MOtorbestimmung
+- [ ] Berechnung und Argumentation Motorbestimmung
 
 
 ## Projektverlauf
@@ -32,18 +32,12 @@
 4. Testreihe aufgenommen
 
 ### Stunde 4 (2022-01-12)
-1. Zeichnen von Bauteilen
-   - [x] Grundplatte
-   - [x] Laufschinen
-   - [x] Standbeine
-   - [x] Ball
-   - [x] Fuß
-   - [ ] Motorhalter
-   - [ ] Achse
-   - [ ] Lager
-   - [ ] Endstück links
-   - [ ] Endstück rechts
-   - [ ] Schrauben
+1. Zeichnen an Bauteilen
+   - Grundplatte
+   - Laufschinen
+   - Standbeine
+   - Ball
+   - Fuß
 
 2. Zusammensetzen begonnen
 
@@ -63,10 +57,23 @@ Beim Einfügen von `Endplatte` und `Lager` in _Wippe_gesamt.FCStd_ fallen nicht
 übereinstimmende Maße auf => `Endplatte` muss neu gezeichnet werden, da FreeCAD
 durcheinanderkommt.
 
+### Stunde 8 (2022-02-22)
+- Dokumentation
 
-## Tests
 
-### Sensor Tests
+## Teileauswahl
+
+### Servomotor
+
+Anforderungen (Berechnung siehe #TODO):
+- Minimale Kraft: 0,6055 Nm   
+- Minimale Geschwindigkeit: 115,8 °/s
+- Maximalpreis: 10€
+
+
+### Abstandssensor
+
+Testen von verschiedenen Abstandssensoren. Einmal einen Ultraschallsensor (Typ: `HC-SR04`) und einen optischen Abstandsensor (Typ: `GP2Y0A21YK0F`). Die beiden Sensoren  
 
 Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Werte addiert werden.  Werte in cm.
 
