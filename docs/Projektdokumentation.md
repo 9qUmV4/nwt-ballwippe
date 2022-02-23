@@ -7,17 +7,16 @@
 
 ## Aufgaben
 - [ ] Zeichen von Bauteilen
-  - [x] Grundplatte
-  - [x] Laufschinen
-  - [x] Standbeine
-  - [x] Ball
-  - [x] Fuß
+  - [x] [Grundplatte](../cad-files/Grundplatte.FCStd)
+  - [x] [Laufschinen](../cad-files/Laufschinen.FCStd)
+  - [x] [Standbeine](../cad-files/Standbeine.FCStd)
+  - [x] [Ball](../cad-files/Ball_klein.FCStd)
+  - [x] [Fuß](../cad-files/Fuss.FCStd)
   - [ ] Motorhalter
   - [ ] Achse
   - [ ] Lager
-  - [x] Endstück links
-  - [x] Endstück rechts
-  - [ ] Schrauben 
+  - [x] [Endstück](../cad-files/Endplatte.FCStd) (links/rechts)
+  - [ ] Schrauben
 - [ ] Zusammensetzen
 - [ ] Berechnung und Argumentation Motorbestimmung
 
@@ -25,19 +24,19 @@
 ## Projektverlauf
 
 ### Stunde 3 (11.01.2022)
-1. Testen von den verschiedenen Abstandssensoren
+1. Testen der verschiedenen Abstandssensoren
 2. Arduino macht Probleme beim Hochladen (Hochladen nicht möglich)
     - Problem war, dass der Lichtsensor auf dem Digitalport 1 angeschlossen war (Inteferentz mit Serieller Kommunikation)
 3. Problem behoben
-4. Testreihe aufgenommen
+4. [Testreihe](#sensor-tests) aufgenommen
 
 ### Stunde 4 (2022-01-12)
-1. Zeichnen an Bauteilen
-   - Grundplatte
-   - Laufschinen
-   - Standbeine
-   - Ball
-   - Fuß
+1. Zeichnen von Bauteilen
+   - [Grundplatte](../cad-files/Grundplatte.FCStd)
+   - [Laufschinen](../cad-files/Laufschinen.FCStd)
+   - [Standbeine](../cad-files/Standbeine.FCStd)
+   - [Ball](../cad-files/Ball_klein.FCStd)
+   - [Fuß](../cad-files/Fuss.FCStd)
 
 2. Zusammensetzen begonnen
 
@@ -50,11 +49,11 @@ Info: Nur eine Stunde wegen GFS
 ### Stunde 6 (2022-02-01)
 Info: Nur Jan anwesend (Krankheit)
 
-Weiterzeichen an `Lager` und Gesamtkonstruktion (_Wippe_gesamt.FCStd_)
+Weiterzeichen an [Lager](../cad-files/Lager.FCStd) und [Gesamtkonstruktion](../cad-files/Wippe_gesamt.FCStd)
 
 ### Stunde 7 (2022-02-08)
-Beim Einfügen von `Endplatte` und `Lager` in _Wippe_gesamt.FCStd_ fallen nicht
-übereinstimmende Maße auf => `Endplatte` muss neu gezeichnet werden, da FreeCAD
+Beim Einfügen von [Endplatte](../cad-files/Endplatte.FCStd) und [Lager](../cad-files/Lager.FCStd) zur [Gesamtkonstruktion](../cad-files/Wippe_gesamt.FCStd) fallen nicht
+übereinstimmende Maße auf ⇒ [Endplatte](../cad-files/Endplatte.FCStd) muss neu gezeichnet werden, da FreeCAD
 durcheinanderkommt.
 
 ### Stunde 8 (2022-02-22)
@@ -75,9 +74,19 @@ Anforderungen (Berechnung siehe #TODO):
 
 Testen von verschiedenen Abstandssensoren. Einmal einen Ultraschallsensor (Typ: `HC-SR04`) und einen optischen Abstandsensor (Typ: `GP2Y0A21YK0F`). Die beiden Sensoren  
 
-Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Werte addiert werden.  Werte in cm.
+Um wie gefordert zu funktionieren benötigt die Wippe eine Möglichkeit, die Position des Balls einigermaßen genau zu beobachten. Dafür sind spezielle Sensoren vonnöten. Da auch die Forderung besteht, möglichst mit vorhandenen Bauteilen zu arbeiten, kam für uns zunächst der Ultraschallsensor in Betracht. Da aber Zweifel bezüglich der Genauigkeit bei einem kleinen Ball bestanden, haben wir uns für eine Testreihe entschieden, die die Entscheidung Ultraschall- und Licht(Infrarot-)sensor fällen sollte.
 
-**Mit Brett**
+Für die beiden folgenden Tests wurden die Messwerte der beiden Sensoren mit [diesem Skript](../testing/sensor-testing/compare-sensors/compare-sensors.ino) erfasst.
+
+<img src="images/testing_setup.jpg" alt="Testaufbau" style="width:300px;"/>
+
+#### **Mit Brett**
+
+Zunächst wurde die generelle Genauigkeit getestet, indem ein großes Styroporbrett vor die Sensoren gehalten, und die Messwerte der Sensoren mit dem Abstand des Bretts notiert wurden.
+
+Der Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Werte addiert werden.  Werte in cm.
+
+<img src="images/testing_with_wall.jpg" alt="Testaufbau mit Styroporbrett" style="width:300px;"/>
 
 | Abstand (Brett) | Schallsensor | Lichtsensor |
 --- | --- | --- |
@@ -89,7 +98,13 @@ Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Wer
 | 30 | 30 | 34 |
 | 35 | 34 | 39 |
 
-**Mit Ball (3,9 cm Durchmesser / kleiner Ball)**
+Hier ist der Schallsensor etwas genauer als der Lichtsensor.
+
+#### **Mit Ball (3,9 cm Durchmesser / kleiner Ball)**
+
+Um die Genauigkeit im eigentlichen Anwendungsfall zu ermitteln wurde eine weitere Messreihe, diesmal mit einem kleinen Styroporball aufgenommen.
+
+<img src="images/testing_with_ball.jpg" alt="Testaufbau mit Ball" style="width:300px;"/>
 
 | Abstand (Ball) | Schallsensor | Lichtsensor |
 --- | --- | --- |
@@ -101,6 +116,7 @@ Lichtsensor steht 1,3 cm über, dass heißt, 1,3 cm müssen auf die gemessen Wer
 | 30 | 177| 33
 | 35 | 177| 39
 
-**Ergebnis**
+
+#### **Ergebnis**
 
 Wir verwenden den Lichtsensor, da der Schallsensor ab 15 Zentimetern den Ball nicht mehr erkennt, erkennbar an dem deutlichen Sprung zu 177 cm.
