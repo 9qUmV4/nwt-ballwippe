@@ -106,7 +106,7 @@ Möglich wären beispielsweise diese Motoren:
 - [JAMARA 033215 Servo Q7 Standard](https://www.reichelt.de/servo-q7-standard-jamara-033215-p238317.html?&trstct=pol_5&nbc=1)
 - [MASTER DS4020 Standardservo, 6 Kg, Digital](https://www.reichelt.de/standardservo-6-kg-digital-master-ds4020-p226367.html?&trstct=pol_6&nbc=1)
 
-Die Motorhalterung wurde für den 360°-Servo in der Schule designed und muss entsprechend der Motorauswahl angepasst werden. 
+Die Motorhalterung wurde für den 360°-Servo in der Schule designed und muss entsprechend der Motorauswahl angepasst werden. Das ist auch der Grund, warum keine Zeichnungen von der Motorhalterung exestieren, da diese nicht sinnvoll wären.
 
 ### Abstandssensor
 
